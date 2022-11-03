@@ -25,7 +25,7 @@ cd ~/catkin_ws
 catkin_make
 ```
 ### II. Run demo
-Please specify the camera parameters and the depth image/pose topic in map_manager/cfg/dynamic_map_param, then run the dynamic map launch: 
+Please specify the camera parameters and the depth image/pose topic in ```map_manager/cfg/dynamic_map_param```, then run the dynamic map launch: 
 ```
 roslaunch map_manager dynamic_map.launch
 roslaunch map_manager rviz.launch
