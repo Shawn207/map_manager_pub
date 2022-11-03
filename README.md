@@ -5,6 +5,7 @@ This repo contains 3D [occupancy map](https://en.wikipedia.org/wiki/Occupancy_gr
 
 
 paper link: [A real-time dynamic obstacle tracking and mapping system for UAV navigation and collision avoidance with an RGB-D camera](https://arxiv.org/abs/2209.08258)
+
 Youtube Demo Video Link: https://www.youtube.com/watch?v=u5zblVx8KRc
 
 https://user-images.githubusercontent.com/60746163/199142937-e9493b8b-fb23-4d75-b5fc-f5c48da14e91.mp4
@@ -71,6 +72,17 @@ int main(){
 }
 ```
 
+### Reference
+If you find this work useful, please cite the paper:
+
+```
+@article{xu2022real,
+  title={A real-time dynamic obstacle tracking and mapping system for UAV navigation and collision avoidance with an RGB-D camera},
+  author={Xu, Zhefan and Zhan, Xiaoyang and Chen, Baihan and Xiu, Yumeng and Yang, Chenhao and Shimada, Kenji},
+  journal={arXiv preprint arXiv:2209.08258},
+  year={2022}
+}
+```
 
 
 
