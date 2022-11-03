@@ -72,7 +72,7 @@ int main(){
 }
 ```
 
-### Reference
+### VI. Reference
 If you find this work useful, please cite the paper:
 
 ```
