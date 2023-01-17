@@ -1,6 +1,6 @@
 # 3D Dynamic Mapping For Autonomous Robots: 
 ## A real-time dynamic obstacle tracking and mapping system for UAV navigation and collision avoidance with an RGB-D camera
-This repo contains 3D [occupancy map](https://en.wikipedia.org/wiki/Occupancy_grid_mapping), dynamic obstacle detection and osbatcle trajectory prediction for autonomous navigation. The dynamic obstacles will be detected, tracked and merged into the static occupancy map with a corresponding trajectory prediction
+This repo contains 3D [occupancy map](https://en.wikipedia.org/wiki/Occupancy_grid_mapping), dynamic obstacle detection and osbatcle trajectory prediction for autonomous navigation. The dynamic obstacles will be detected, tracked and merged into the static occupancy map with a corresponding trajectory prediction (ICRA2023)
 
 
 
