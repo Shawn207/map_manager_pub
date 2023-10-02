@@ -20,19 +20,19 @@ sudo ln -s /usr/include/eigen3/Eigen/ /usr/include/Eigen
 ### I. Install
 ```
 prerequisite: Eigen, OpenCV
-git clone https://github.com/Shawn207/map_manager.git
+git clone https://github.com/Shawn207/map_manager_pub.git
 cd ~/catkin_ws
 catkin_make
 ```
 ### II. Run demo
-Please specify the camera parameters and the depth image/pose topic in ```map_manager/cfg/dynamic_map_param```, then run the dynamic map launch: 
+Please specify the camera parameters and the depth image/pose topic in ```map_manager_pub/map_manager/cfg/dynamic_map_param```, then run the dynamic map launch: 
 ```
 roslaunch map_manager dynamic_map.launch
 roslaunch map_manager rviz.launch
 ```
 
 ### III. Parameters
-Please find parameters in ```map_manager/cfg/dynamic_map_param.yaml``` files. The parameters are explained by comments.
+Please find parameters in ```map_manager_pub/map_manager/cfg/dynamic_map_param.yaml``` files. The parameters are explained by comments.
 
 ### IV. ROS Topics
 Subsribe the following topics for occupancy and ESDF map:
